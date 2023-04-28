@@ -1,6 +1,5 @@
 # csci_6560
-Banking Management Systems
-ONLINE BANK MANAGEMENT SYSTEM using GCP:
+ONLINE BANK MANAGEMENT SYSTEM:
 
 The goal of this initiative is to keep the internet banking system, which enables both customers and employees to obtain personal information and manage their accounts.
 
@@ -16,17 +15,20 @@ After installing, xampp, in xampp control panel, start Apache and mysql and we a
 1. Create database and create different tables like employee, customer in mysql(phpmyadmin) using db table queries that we have in db file (banking.sql)
 Link to access phpmyadmin  :  http://localhost/phpmyadmin/
 
-2. In xampp path, there is working folder htdocs. Create a folder within htdocs and have two files inside
-customer_creation.html customer_fetch_bal.html and contact_employee.php.
+2. In xampp path, there is working folder htdocs. Create a folder within htdocs called bank.
 
 Ex:
 
-C:\xampp\htdocs\banking\
+C:\xampp\htdocs\bank\
 
-Here, contact is the folder inside htdocs.
+Here, bank is the folder inside htdocs.
 
-3. Next, run the html page using link : http://localhost/banking/customer_creation.html in any browser.
+3. Create a new database naming mybank.
 
-4. In page, enter customer details which employee need to add to database and click on submit.
+4. Import the provided SQL file. The file is known as mybank.sql located inside the db folder.
 
-5. Check table in phpmyadmin or mysql workbench to see if new customer got added to the table.
+5. Next, run the html page using link : http://localhost/bank/login.html in any browser.
+
+6. In page, enter customer details which employee need to add to database and click on submit.
+
+7. Check table in phpmyadmin or mysql workbench to see if new customer got added to the table.
